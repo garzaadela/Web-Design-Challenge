@@ -4,4 +4,37 @@
     padding: 20px;
     color: white;
     background: rgb(232, 234, 236);
+    box-sizing: border-box;
 }
+body {
+    box-sizing: border-box;
+    border: medium;
+}
+/* /* body {
+    background: rgb(232, 234, 236);   */
+  /* } 
+  .box {
+    padding: 10px;
+    background: white; 
+    font-size: 16px;
+    line-height: 100%;
+    align-content: left;
+    color: black;
+    } */
+    h1 {
+      padding: 10px;
+      margin: 5px;
+      margin-bottom: 10px;
+      font-size: 28px;
+      color: rgb(60, 148, 148);
+      font-weight: bold;
+      text-align: left;
+    } 
+  
+  /* p {
+      font-size: medium;
+  }
+  /*  
+  
+  
+  
