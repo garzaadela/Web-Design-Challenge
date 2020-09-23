@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="HTML-HW-LP.css">
 </head>
@@ -10,56 +13,38 @@
 <body>
     <div class="row">
         <div class="col col-6 homebtn">
-            <div class="container">
+            <div class="container-fluid">
                 <button type="button" class="btn btn-primary">Latitude</button>
                 <!-- <a href="Landing Page.html">Latitude</a> -->
             </div>
-      </div>
-      <div class="col col-6 menubuttons divtop">
-        <nav class="navbar navbar-expand-md navbar-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        </div>
+        <div class="col col-6 menubuttons divtop">
+            <nav class="navbar navbar-expand-md navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
+            </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav">
+                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   Plots
                 </a>
-            <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">Latitude</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                 -->
-                <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto"> -->
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownLink">
-                            <a class="dropdown-item" href="./table.html">Max Temperature</a>
-                            <a class="dropdown-item" href="./hum.html">Humidity</a>
-                            <a class="dropdown-item" href="./cloud.html">Cloudiness</a>
-                            <a class="dropdown-item" href="./wind.html">Wind Speed</a>
+                        <a class="dropdown-item" href="./temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="./hum.html">Humidity</a>
+                        <a class="dropdown-item" href="./cloud.html">Cloudiness</a>
+                        <a class="dropdown-item" href="./wind.html">Wind Speed</a>
                         </div>       
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Comparison</a>
+                            <a class="nav-link" href="./comp.html">Comparison</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Data</a>
+                            <a class="nav-link" href="./HTML-HW-DATA.html">Data</a>
                         </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                Plots
-                            </a> -->
-                            <!-- <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Max Temperature</a>
-                                <a class="dropdown-item" href="#">Humidity</a>
-                                <a class="dropdown-item" href="#">Cloudiness</a>
-                                <a class="dropdown-item" href="#">Wind Speed</a>
-                            </div> -->
-                        </li>
-                    </ul>
+                </li>    
+                </ul>
                 </div>
             </nav>
         </div>
@@ -68,14 +53,16 @@
 
         <article>
         <!-- <a target="_blank" href="Resources/assets/images/Fig1.png">
-            <img src="Resources/assets/images/Fig1.png" class="rounded float left" width="460" height="345"> -->
-         
+        <img src="Resources/assets/images/Fig1.png" class="rounded float left" width="460" height="345"> -->
+        <!-- <a href="./cloudiness.html">
+            <img src="Images/cloudiness.png" alt="Cloudiness" class="img-thumbnail">
+        </a> -->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 box col-sm-12">
                     <h1>Summary: Latitude vs. X</h1>
-                                <a target="_blank" href="Resources/assets/images/Fig1.png">
-                                    <img src="Resources/assets/images/Fig1.png" style="float: left" width="250" height="250">
+                                <a href="./temp.html">
+                                    <img src="images/Fig1.png" style="float: left;" width="250" height="250">
                                 </a>
                                                     
                                 <p style="color: black;">
@@ -92,22 +79,22 @@
                                 <div class="col-md-12 col-sm-6">
                                     <div class = "white" style = "padding: 10px">
                                         
-                                        <a target="_blank" href="Resources/assets/images/Fig1.png">
-                                            <img src="Resources/assets/images/Fig1.png" style="float:left" width="215" height="215">
+                                        <a href="./temp.html">
+                                            <img src="images/Fig1.png" style="float:left" width="215" height="215">
                                         </a>   
-                                        <a target="_blank" href="Resources/assets/images/Fig2.png">
-                                            <img src="Resources/assets/images/Fig2.png" class="rounded float right" width="215" height="215">
+                                        <a href="./hum.html">
+                                            <img src="images/Fig2.png" class="rounded float right" width="215" height="215">
                                         </a>   
                                     </div>
                                 </div>
                                     <div class="col-md-12 col-sm-6">
                                         <div class = "white" style = "padding: 10px">
 
-                                            <a target="_blank" href="Resources/assets/images/Fig3.png">
-                                                <img src="Resources/assets/images/Fig3.png" style="float:left" width="215" height="215">
+                                            <a href="./cloud.html">
+                                                <img src="images/Fig3.png" style="float:left" width="215" height="215">
                                             </a>   
-                                            <a target="_blank" href="Resources/assets/images/Fig4.png">
-                                                <img src="Resources/assets/images/Fig4.png" class="rounded float right" width="215" height="215">
+                                            <a href="./wind.html">
+                                                <img src="images/Fig4.png" class="rounded float right" width="215" height="215">
                                             </a>  
                                         </div>
                                     </div> 
@@ -119,4 +106,5 @@
         </article>    
     </section> 
 </body>
+
 </html>
