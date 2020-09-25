@@ -30,11 +30,9 @@ body {
       font-weight: bold;
       text-align: left;
     } 
-  
-  /* p {
-      font-size: medium;
+  .jumbotron {
+      background-color: white;
+      color:white;
   }
-  /*  
-  
   
   
