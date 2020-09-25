@@ -34,5 +34,14 @@ body {
       background-color: white;
       color:white;
   }
-  
-  
+
+ /* table.dataframe thead th:first-child {
+        display: none;
+    }
+    table.dataframe tbody th {
+        display: none;
+    } */
+
+.table.dataframe-striped {
+  display: inside;
+}

@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="HTML-HW-LP.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="WebVisualizations/reset.css">
+    <link rel="stylesheet" href="WebVisualizations/HTML-HW-LP.css">
 </head>
 
 <body>
@@ -17,7 +19,7 @@
             </div>
         </div>
         <div class="col col- menubuttons divtop">
-            <nav class="navbar navbar-expand-md navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,16 +32,16 @@
                   Plots
                 </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownLink">
-                        <a class="dropdown-item" href="./temp.html">Max Temperature</a>
-                        <a class="dropdown-item" href="./hum.html">Humidity</a>
-                        <a class="dropdown-item" href="./cloud.html">Cloudiness</a>
-                        <a class="dropdown-item" href="./wind.html">Wind Speed</a>
+                        <a class="dropdown-item" href="WebVisualizations/temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="WebVisualizations/hum.html">Humidity</a>
+                        <a class="dropdown-item" href="WebVisualizations/cloud.html">Cloudiness</a>
+                        <a class="dropdown-item" href="WebVisualizations/wind.html">Wind Speed</a>
                         </div>       
-                        <li class="nav-item active">
-                            <a class="nav-link" href="./comp.html">Comparison</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="WebVisualizations/comp.html">Comparison</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./HTML-HW-DATA.html">Data</a>
+                            <a class="nav-link" href="WebVisualizations/tdata.html">Data</a>
                         </li>
                 </li>    
                 </ul>
@@ -61,10 +63,11 @@
                     <div class="jumbotron">
                     <div class="page-header">
                         <h1>Summary: Latitude vs. X</h1>
+                        <hr>
                     </div>
 
                         <a href="./temp.html">
-                            <img src="/Resources/assets/images/Fig1.png" style="float: left;" width="250" height="250">
+                            <img src="WebVisualizations/Resources/assets/images/Fig1.png" style="float: left;" width="250" height="250">
                         </a>
                         
                         <p style="color: black;">
@@ -79,6 +82,7 @@
                     <article>
                         <div class="page-header">
                             <h1>Visualizations</h1>
+                            <hr>
                         </div>
         
                                 <div class="row">
@@ -86,10 +90,10 @@
                                         <div class = "white" style = "padding: 10px">
                                             
                                             <a href="./temp.html">
-                                                <img src="/Resources/assets/images/Fig1.png" style="float:left" width="215" height="215">
+                                                <img src="WebVisualizations/Resources/assets/images/Fig1.png" style="float:left" width="215" height="215">
                                             </a>   
                                             <a href="./hum.html">
-                                                <img src="/Resources/assets/images/Fig2.png" class="rounded float right" width="215" height="215">
+                                                <img src="WebVisualizations/Resources/assets/images/Fig2.png" class="rounded float right" width="215" height="215">
                                             </a>   
                                         </div>
                                     </div>
@@ -97,10 +101,10 @@
                                         <div class = "white" style = "padding: 10px">
                                             
                                             <a href="./cloud.html">
-                                                <img src="/Resources/assets/images/Fig3.png" style="float:left" width="215" height="215">
+                                                <img src="WebVisualizations/Resources/assets/images/Fig3.png" style="float:left" width="215" height="215">
                                             </a>   
                                             <a href="./wind.html">
-                                                <img src="/Resources/assets/images/Fig4.png" class="rounded float right" width="215" height="215">
+                                                <img src="WebVisualizations/Resources/assets/images/Fig4.png" class="rounded float right" width="215" height="215">
                                             </a>  
                                         </div>
                                     </div> 
@@ -111,8 +115,5 @@
         </div>
         </article>    
     </section> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
