@@ -1,27 +1,21 @@
 .box {
-    height: 500px;
-    width: 1500px;
-    padding: 20px;
+    min-height: fit-content; 
+    width: 6000px;
+    padding: 50px;
     color: white;
     background: rgb(232, 234, 236);
     box-sizing: border-box;
+    align: center;
+
 }
 body {
-    box-sizing: border-box;
+    box-sizing:content-box;
     border: medium;
+    background: rgb(212, 211, 211);
+    align-content: center;
 }
-/* /* body {
-    background: rgb(232, 234, 236);   */
-  /* } 
-  .box {
-    padding: 10px;
-    background: white; 
-    font-size: 16px;
-    line-height: 100%;
-    align-content: left;
-    color: black;
-    } */
-    h1 {
+
+h1 {
       padding: 10px;
       margin: 5px;
       margin-bottom: 10px;
@@ -30,17 +24,11 @@ body {
       font-weight: bold;
       text-align: left;
     } 
-  .jumbotron {
+    
+.jumbotron {
       background-color: white;
       color:white;
   }
-
- /* table.dataframe thead th:first-child {
-        display: none;
-    }
-    table.dataframe tbody th {
-        display: none;
-    } */
 
 .table.dataframe-striped {
   display: inside;
